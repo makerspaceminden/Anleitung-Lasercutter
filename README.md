@@ -4,7 +4,7 @@ Benutzung auf eigene Gefahr! Bitte beachtet die Sicherheitshinweise des Herstell
 ## Programme
 Unser Lasercutter arbeitet mit RD-Dateien. Diese müssen über ein spezielles [Konstruktionsprogramm](##Programme) erstellt werden.
 Diese RD-Datei kann dann über die entsprechenden Programme auf den Laser hochgeladen werden.
-Hierzu muss unser Lasercutter in den Programmen eingerichtet werden. Es handelt sich um einen Laser der Firma `Ruida` und er hat die interne IP-Adresse `192.168.41.25`.
+Hierzu muss unser Lasercutter in den Programmen eingerichtet werden. Es handelt sich um einen 60W Laser und wird mit einem DSP der Firma `Ruida` angesteuert.Der Laser hat die interne IP-Adresse `192.168.41.25`.
 Die Programme werden wie typische Zeichenprogramme bedient, nur dass eben zum Schluss ein anderes Dateiformat rauskommt.
 ### LightBurn
 LightBurn ist ein Konstruktionsprogramm zur Bedienung von Lasercuttern unter Windows. [LightBurn](https://lightburnsoftware.com/collections/frontpage/products/lightburn-dsp) ist kostenpflichtig. Die passende Lizenz für DSP-Bedienung kostet zirka 120€. Der MakerSpace hat die Lizenz erworben und auf dem Packard Bell im MakerSpace kann es benutzt werden.
