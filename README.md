@@ -34,12 +34,13 @@ RDWorks ist die Originalsoftware des Herstellers und kostenfrei, hat jedoch viel
 Der Laser verbraucht viel Strom und die Wartungs- und Ersatzteilkosten sind sehr hoch, weshalb wir einen Beitrag von 15ct pro Minute erheben. Dieser wird von deiner MakerSpace Karte direkt eingezogen. Bitte lege deine Karte auf das auf dem Laser befindliche Bezahlterminal und starte dann den Laservorgang.
 </br>
 <img src="./img/Lasercutter_Payment.jpg" width="200" height="200" />
+- Bitte belasse deine Karte so lange der Laser arbeitet auf dem Bezahlterminal. Es wird nur solange Guthaben abgebucht wie der Laser aktiv läuft.
 
 ## Tipps & Tricks
 - Es bietet sich an für gerade Kanten, dass man bereits im Konstruktionsprogramm einen Rahmen um das gewünschte Objekt zieht, sodass man anhand dessen komplexere Figuren ausrichten kann und stets ein gerades Ergebnis herauskommt.
 ## TL;DR Anleitung
 - Konstruktionsdateien mit Software erstellen
-- RD-File auf Lasers hochladen
+- RD-File auf Laser hochladen
 - Manuelle Bedienung am Gerät und Bezahlung
 
 
