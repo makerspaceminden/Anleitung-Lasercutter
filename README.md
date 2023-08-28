@@ -6,11 +6,13 @@
 Benutzung auf eigene Gefahr! Bitte beachtet die Sicherheitshinweise des Herstellers und fragt im MakerSpace nach, wenn Ihr Euch unsicher seid. Ein Laser ist ein gefährliches Gerät und sollte nur mit größter Vorsicht benutzt werden.
 ## Programme
 Unser Lasercutter arbeitet mit RD-Dateien. Diese müssen über ein spezielles [Konstruktionsprogramm](##Programme) erstellt werden.
-Diese RD-Datei kann dann über die entsprechenden Programme auf den Laser hochgeladen werden.
-Hierzu muss unser Lasercutter in den Programmen eingerichtet werden. Der Laser wird mit einem DSP der Firma `Ruida` angesteuert. Der Laser hat die interne IP-Adresse `192.168.41.25`.
-Die Programme werden wie typische Zeichenprogramme bedient, nur dass eben zum Schluss ein anderes Dateiformat rauskommt.
+Diese RD-Datei kann dann über die entsprechenden Programme auf den Laser hochgeladen oder direkt aus dem Konstruktionsprogramm gestartet werden.
+Hierzu muss unser Lasercutter in den Programmen eingerichtet werden. 
+Der Laser wird mit einem DSP der Firma `Ruida` angesteuert. Der Laser hat die interne IP-Adresse `192.168.41.25`.
+Die Programme werden wie typische Zeichenprogramme bedient, nur das eben zum Schluss ein anderes Dateiformat rauskommt.
 ### LightBurn
-LightBurn ist ein Konstruktionsprogramm zur Bedienung von Lasercuttern unter Windows. [LightBurn](https://lightburnsoftware.com/collections/frontpage/products/lightburn-dsp) ist kostenpflichtig. Die passende Lizenz für DSP-Bedienung kostet zirka 120€. Der MakerSpace hat die Lizenz erworben und auf dem Packard Bell im MakerSpace kann es benutzt werden.
+LightBurn ist ein Konstruktionsprogramm zur Bedienung von Lasercuttern. [LightBurn](https://lightburnsoftware.com/collections/frontpage/products/lightburn-dsp) ist kostenpflichtig. Die passende Lizenz für DSP-Bedienung kostet zirka 120€. Der MakerSpace hat die Lizenz erworben und auf dem Packard Bell im MakerSpace kann es benutzt werden.
+In diesem Repository im Ordner `LightBurn` befindet sich eine passende Einstellungsdatei, welche in LightBurn importiert werden kann.
 ### RDWorks
 RDWorks ist die Originalsoftware des Herstellers und kostenfrei, hat jedoch viele Funktionen nicht und ist sehr umständlich in der Bedienung. Es eignet sich für einfache Formen.
 
