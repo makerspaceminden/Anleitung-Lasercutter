@@ -39,7 +39,43 @@ Der Laser verbraucht viel Strom und die Wartungs- und Ersatzteilkosten sind sehr
 - Bitte belasse deine Karte so lange der Laser arbeitet auf dem Bezahlterminal. Es wird nur solange Guthaben abgebucht wie der Laser aktiv läuft.
 
 ## Tipps & Tricks
-- Es bietet sich an für gerade Kanten, dass man bereits im Konstruktionsprogramm einen Rahmen um das gewünschte Objekt zieht, sodass man anhand dessen komplexere Figuren ausrichten kann und stets ein gerades Ergebnis herauskommt.
+### Gerade Kanten
+Leider besitzt der Laser keinen Anschlag, sodass wir Werkstoffe exakt ausrichten können. Deshalb bietet es sich an, dass man bereits im Konstruktionsprogramm einen Rahmen um das gewünschte Objekt zieht und auslasert, sodass man anhand dessen komplexere Figuren ausrichten kann und stets ein gerades Ergebnis herauskommt.
+
+### Tabellen Einstellung des Lasers zu Material - Erfahrungswerte
+Die nachfolgenden Tabellen sind eine Sammlung von Erfahrungswerten von unseren Makern welche Einstellungen für die jeweiligen Werkstoffe vorgenommen werden müssen um gewünschte Ergebnisse zu erzielen. Wir unterscheiden zwischen "Schneiden" und "Gravieren", wobei die jeweiligen Ergebnisse abhängig vom Werkstoff sind. Im Zweifel fragt bitte einen erfahrenen Maker nach seiner Meinung, ob euer Werkstück den Angaben in der Tabelle entspricht oder weitere Feinjustierungen notwendig sind.
+#### Schneiden
+Material | Materialstärke (mm)| Leistung (%) | Speed (mm/sec) | Fokus | Kommentar
+-------- | ------------------ | ------------ | -------------- | ----- | ---------
+Sperrholz | 3 | 70 | 10 | 90 |
+Sperrholz | 5 | 70 | 10 | 90 | 2 Durchgänge
+MDF | 3 | 70 | 10 | 11 | 4 Durchgänge
+Plexiglas, klar | 7 | 70 | 5 | 80 |
+Plexiglas, transparent, rot | 7 | 70 | 5 | 70 |
+Plexiglas, schwarz | 7 | 70 | 5 | 100 |
+Plexiglas, rot | 3 | 70 | 5 | |
+Presspappe | | 70 | 9 | |
+Plexiglas, klar | 5 | 70 | 4 | |
+
+#### Gravieren
+Die Tabelle für das Gravieren beinhaltet keine Materialstärke, da wir nur die Oberfläche bearbeiten möchten und es irrelevant ist wie stark das Werkstück ist.
+Material | Leistung (%) | Speed (mm/sec) | Fokus | Kommentar
+--------  | ------------ | -------------- | ----- | ---------
+Sperrholz | 60 | 250 |  |
+Holz | 30 | 150 | 100 | besonders für Bilder gut geeignet
+Zollstock, Holz, weiß | 30 | 400 | 100 |
+Holzschale | 30 | 200 | 100 |
+Presspappe | 20 | 100 | |
+Plexiglas | 70 | 250 | 100 |
+Glas | 20 | 200 | | funktioniert nur bedingt, bitte erfahrenen Maker fragen!
+Schiefer | 70 | 200 | 100 |
+Spiegel | 40 | 100 | 90 |
+Platinenlack | 10 | 90 | | leider nicht für sehr Filigranes geeignet!
+
+### Gefährliche Materialien
+Nicht alle Werkstoffe sind sicher zu lasern und können gefährliche Gase / Dämpfe bilden. Hierzu beachtet bitte die neben dem Laser aushängende Liste von gefährlichen Materialien.
+Lieber einmal mehr nachfragen ist hier äußerst erwünscht!
+
 ## TL;DR Anleitung
 - Konstruktionsdateien mit Software erstellen
 - RD-File auf Laser hochladen
